@@ -6,8 +6,15 @@
 
 .carousel-inner{
     height: 80%
-    position:fixed;
+    
 }
+
+.carousel{
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+
+  }
 .navbar{
     margin-bottom: -1px;  
 }
@@ -34,7 +41,8 @@
 
 .search-pannel {
 
-    margin-bottom: 20px;
+     margin-top: 10%;
+    margin-bottom: 100px;
     background-color: #fff;
     border: 1px solid transparent;
         border-top-color: transparent;
@@ -49,6 +57,8 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+     position: sticky;
+    z-index: 8;
     
     
 
