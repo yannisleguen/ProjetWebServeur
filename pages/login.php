@@ -1,7 +1,6 @@
-<?php include ('../connexion.php');?>
-<?php require ('../login_systeme.php');?>
 
-<form name="login" action="" method="POST">
+
+<form name="login" action="../scripts/loginSysteme.php" method="POST">
 <p>Username: </p>
         <input class="form-control" type="text" placeholder="Username or Email adress" name="name"> 
 <p>Password: </p>
