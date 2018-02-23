@@ -34,11 +34,11 @@
       </div>
 
       <div class="item">
-        <img src="pictures/hossegor.png" alt="Hossegor" style="width:100%;">
+        <img src="pictures/surf.png" alt="Hossegor" style="width:100%;">
       </div>
     
       <div class="item">
-        <img src="pictures/rice.png" alt="rice" style="width:100%;">
+        <img src="pictures/nice.png" alt="rice" style="width:100%;">
       </div>
     </div>
 
