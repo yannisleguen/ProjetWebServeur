@@ -61,9 +61,20 @@
      <div id="form_work" style="display: none;">
       <p>Select a job category : </p>
         <select name="categ_job" class="form-control">
-          <option value="1">Will be load from db</option>
-          <option value="2">Will be load from db</option>
-          <option value="2">...</option>
+          <?php 
+            if(1==0){
+			require("../scripts/connect.php");
+            $db = db_connect();
+            $query = "SELECT id_Category, name_Category FROM category";
+            $statement = $db->prepare($query);
+            $statement->execute();
+            while($row = $statement->fetch(PDO::FETCH_ASSOC)){
+              $id = $row["id_Category"];
+              $categ = $row["name_Category"];
+              echo "<option value=".$id.">".$categ."</option>";
+            }
+			}
+            ?>
         </select>
      </div> 
      <p>Chose your dates : </p>
