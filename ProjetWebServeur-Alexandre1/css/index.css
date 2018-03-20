@@ -1,0 +1,90 @@
+.container{
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.carousel-inner{
+    height: 80%
+    
+}
+
+.carousel{
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+
+  }
+.navbar{
+    margin-bottom: -1px;  
+}
+
+.btn-search {
+      background: #424242;
+      border-radius: 0;
+      color: #fff;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #1c1c1c;
+
+    }
+    .btn-search:link, .btn-search:visited {
+      color: #fff;
+    }
+    .btn-search:active, .btn-search:hover {
+      background: #1c1c1c;
+      color: #fff;
+    }
+
+
+
+
+.search-pannel {
+
+     margin-top: 10%;
+    margin-bottom: 100px;
+    background-color: #fff;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    width: 30%;
+    padding-top: -200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+     position: sticky;
+    z-index: 8;
+    
+    
+
+}
+
+.indexResult{
+  width: 80%;
+}
+
+.pictures-box{
+  width: 26%;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.formdate{
+  display: inline;
+  width: 49%;
+}
+
+.pannel > p
+{font-family:pacifico; 
+}
+
+#nb_person{
+  width: 10%
+}

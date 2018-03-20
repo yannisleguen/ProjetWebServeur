@@ -1,0 +1,35 @@
+.navbar-default {
+	background-color: #49cbc1;
+	border-color: #e7e7e7;
+}
+
+.container-fluid {
+    padding-right: 120px;
+    padding-left: 120px;
+
+
+}
+
+.navbar-brand {
+	
+}
+.navbar-brand>img {
+  float: none;
+  height: 600%;
+ 
+}
+
+
+
+.navbar-default .navbar-nav > li > a {
+	color: #444247;
+	font-family: pacifico;
+	font-size: 18px;
+}
+
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+	color: #ffbb69;
+	background-color: transparent;
+}
+
